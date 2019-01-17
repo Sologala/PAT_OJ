@@ -41,16 +41,18 @@ int main(int argc, char const *argv[])
     out<<"    Sologala   @github    https://github.com/Sologala/PAT_OJ"<<endl;
     out<<"    PAT_oj No.**"<<s<<"**"<<endl;
     out<<_curtime<<endl;
-    out<<"*/"<<endl<<endl<<endl;
+    out<<"*/"<<endl;
+    for(int i=0;i<10;i++){
+        out<<endl;
+    }
     out<<"### **"<<"ac_code"<<"**"<<endl;
     out<<"```c"<<endl;
     out<<"code++++++++++"<<endl;
     out<<"```"<<endl;
-    for(int i=0;i<10;i++){
-        out<<endl;
-    }
+   
     out.close();
-
+    string openmarkdown ="start "+filename;
+    system(openmarkdown.c_str());
     filename =".\\"+s+"\\"+s+".cpp";
     fp=fopen(filename.c_str(),"a");
     fclose(fp);
@@ -71,6 +73,6 @@ int main(int argc, char const *argv[])
     out<<" return 0;"<<endl;
     out<<"}"<<endl;
     out.close();
-
+    
     return 0;
 }
