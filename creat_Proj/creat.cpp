@@ -25,6 +25,9 @@ int main(int argc, char const *argv[])
         if(s[i]==' '){
             s[i]='_';
         }
+        if(s[i]=='\''){
+            s[i]='_';
+        }
     }
     string folderPath = "md .\\"+ s;
     system(folderPath.c_str());
