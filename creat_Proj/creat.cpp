@@ -36,13 +36,19 @@ int main(int argc, char const *argv[])
     fclose(fp);
     //写入文件头
     out.open(filename.c_str(), std::ios::app | std::ios::out);
-    out<<"![https://github.com/Sologala/SomeThings/blob/master/face.png]()"<<endl;
+    out<<"![](https://github.com/Sologala/SomeThings/blob/master/face.jpg?raw=true)"<<endl;
     out<<"/*"<<endl;
     out<<"    Sologala   @github    https://github.com/Sologala/PAT_OJ"<<endl;
-    out<<"    PAT_oj No."<<s<<endl;
+    out<<"    PAT_oj No.**"<<s<<"**"<<endl;
     out<<_curtime<<endl;
-    out<<"*/"<<endl;
-    
+    out<<"*/"<<endl<<endl<<endl;
+    out<<"### **"<<"ac_code"<<"**"<<endl;
+    out<<"```c"<<endl;
+    out<<"code++++++++++"<<endl;
+    out<<"```"<<endl;
+    for(int i=0;i<10;i++){
+        out<<endl;
+    }
     out.close();
 
     filename =".\\"+s+"\\"+s+".cpp";
@@ -52,7 +58,7 @@ int main(int argc, char const *argv[])
     out<<"/*"<<endl;
     out<<"    Sologala   @github    https://github.com/Sologala/PAT_OJ"<<endl;
     out<<"    PAT_oj No."<<s<<endl;
-    out<<_curtime<<endl;
+    // out<<_curtime<<endl;
 
     out<<"*/"<<endl;
     out<<"#include <iostream>"<<endl;
