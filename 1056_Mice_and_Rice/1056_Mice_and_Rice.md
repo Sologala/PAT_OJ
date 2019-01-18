@@ -5,28 +5,13 @@
     2019-01-18 12:41:49
 */
 
-### Output Specification:
-
-For each test case, print the final ranks in a line. The *i*-th number is the rank of the *i*-th programmer, and all the numbers must be separated by a space, with no extra space at the end of the line.
-
-![1547792738718](F:\Pat_Obj\PAT_OJ\1056_Mice_and_Rice\1056_Mice_and_Rice.assets\1547792738718.png)
-
-### Sample Input:
-
-```in
-11 3
-25 18 0 46 37 3 19 22 57 56 10
-6 0 8 7 10 5 9 1 4 2 3
-
-```
-
-### Sample Output:
-
-```out
-5 5 5 2 5 5 5 3 1 3 5
-```
 
 
+
+
+![](https://github.com/Sologala/PAT_OJ/blob/master/1056_Mice_and_Rice/1056_Mice_and_Rice.assets/0.png?raw=true)
+
+就Ok排序。
 
 
 ### **ac_code**
