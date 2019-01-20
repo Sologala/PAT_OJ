@@ -7,7 +7,7 @@
 
 
 
-
+s
 
 ![](https://github.com/Sologala/PAT_OJ/blob/master/1056_Mice_and_Rice/1056_Mice_and_Rice.assets/0.png?raw=true)
 
