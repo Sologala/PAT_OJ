@@ -1,7 +1,5 @@
 
 
-
-
 ![](https://github.com/Sologala/SomeThings/blob/master/face.jpg?raw=true)
 /*
     Sologala   @github    https://github.com/Sologala/PAT_OJ
@@ -18,7 +16,7 @@
 
 
 
-![](https://github.com/Sologala/PAT_OJ/blob/master/1057_Stack/1057_Stack.assets/.png?raw=true)
+![](https://github.com/Sologala/PAT_OJ/blob/master/1057_Stack/1057_Stack.assets/2.png?raw=true)
 
 ​	下面是ac 代码
 
