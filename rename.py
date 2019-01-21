@@ -2,6 +2,7 @@
 import re
 import os
 getName =input("请输入需要创建的工程名字");
+realName =getName
 getName =getName.replace(' ','_')
 print(getName)
 pathname =os.getcwd()+'/'+getName
@@ -13,7 +14,7 @@ F =open(filename,'x')
 F.write("/*\n")
 F.write("    Sologala   @github    https://github.com/Sologala/PAT_OJ\n")
 F.write("    PAT_oj No.")
-F.write(getName)
+F.write(realName)
 F.write("\n*/\n")
 F.write("#include <iostream>\n#include <cstdio>\n#include <algorithm>\n#include <string>\n#include <vector>\nusing namespace std;\n\n\n\n\n\nint main(){\n\n\n\n    return 0;\n}\n")
 
